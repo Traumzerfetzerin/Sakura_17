@@ -1,0 +1,67 @@
+nav {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        // width: 350px;
+        display: flex;
+        gap: 64px;
+        justify-content: center;
+        align-items: center;
+
+        >a {
+            color: white;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+a {
+    color: white;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.phone_btn {
+    color: white;
+    background-color: #9f0908;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 7px;
+
+    &:hover {
+        background-color: #d10e0e;
+    }
+
+    >img {
+        width: 26px;
+    }
+}

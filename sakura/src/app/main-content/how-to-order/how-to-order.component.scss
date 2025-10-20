@@ -1,0 +1,29 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    padding-top: 120px;
+
+    >h2 {
+        color: #9F0908;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 80px;
+    }
+    
+}
+
+.order_img {
+    width: 128px;
+    height: 128px;
+}
+
+.order_txt {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+}
