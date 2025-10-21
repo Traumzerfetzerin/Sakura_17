@@ -1,21 +1,10 @@
 @import '../../../../styles.scss';
 
-@mixin borderStyling($bStyle) {
-    border-radius: 10px;
-    border: 2px $bStyle white;
-}
-
-@mixin fontColor($color) {
-    color: white;
-}
 
 nav {
     width: 100%;
     padding: 32px;
-    display: flex;
-    align-items: $c;
-    justify-content: space-between;
-    gap: 64px;
+    @include dFlex($jc: space-between, $g: 16px);
 
     >img {
         width: 64px;
@@ -61,9 +50,7 @@ a {
     font-style: normal;
     font-size: 24px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: $c;
+    @include dFlex();
     @include borderStyling(solid);
     padding: 7px;
 

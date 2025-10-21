@@ -7,6 +7,22 @@
 $c: center;
 $dark_red: rgb(139, 0, 0);
 
+@mixin borderStyling($bStyle) {
+    border-radius: 10px;
+    border: 2px $bStyle white;
+}
+
+@mixin fontColor($color) {
+    color: white;
+}
+
+@mixin dFlex($jc: center, $ai: center, $g: 0) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+}
+
 .fontRaleway {
     font-family: 'Raleway';
 }
