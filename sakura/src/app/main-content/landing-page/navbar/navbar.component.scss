@@ -1,8 +1,11 @@
+$c: center;
+$dark_red: rgb(139, 0, 0);
+
 nav {
     width: 100%;
     padding: 32px;
     display: flex;
-    align-items: center;
+    align-items: $c;
     justify-content: space-between;
     gap: 64px;
 
@@ -16,7 +19,7 @@ nav {
         display: flex;
         gap: 64px;
         justify-content: center;
-        align-items: center;
+        align-items: $c;
 
         >a {
             color: white;
@@ -44,7 +47,7 @@ a {
 
 .phone_btn {
     color: white;
-    background-color: #9f0908;
+    background-color: $dark_red;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -52,7 +55,7 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: $c;
     border-radius: 10px;
     border: 2px solid;
     padding: 7px;
